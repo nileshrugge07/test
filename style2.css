@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* Ensure full viewport height */
+}
+
+.button-container {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 16px;
+}
+
+.buyer-button {
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+}
+
+.buyer-button:hover {
+    background-color: #3e8e41;
+    /* Darker Green */
+}
+
+.seller-button {
+    background-color: #3F51B5;
+    /* Blue */
+    color: white;
+}
+
+.seller-button:hover {
+    background-color: #283593;
+    /* Darker Blue */
+}
